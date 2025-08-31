@@ -1,0 +1,20 @@
+{
+  "name": "ai-ecommerce-backend-simple",
+  "version": "1.0.0",
+  "description": "Simplified backend without Docker dependencies",
+  "main": "src/server-simple.js",
+  "scripts": {
+    "start": "node src/server-simple.js",
+    "dev": "nodemon src/server-simple.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
